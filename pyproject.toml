@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "anomaly-detect-sample"
+version = "0.1.0"
+description = ""
+authors = ["Tokuma Suzuki <tokuma.suzuki09@gmail.com>"]
+readme = "README.md"
+packages = [{include = "anomaly_detect_sample"}]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pandas = "^2.1.1"
+numpy = "^1.26.0"
+matplotlib = "^3.8.0"
+seaborn = "^0.13.0"
+japanize-matplotlib = "^1.1.3"
+scipy = "^1.11.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
